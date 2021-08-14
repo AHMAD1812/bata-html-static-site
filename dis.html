@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            background-image: url(d.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }  
+    input,
+.btn {
+  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+    
+    
+    </style>
+    </head>
+<body >
+   
+<div style="color:white; background-color: rgb(0,153,51);">
+    <center>
+<h1>
+DISCOUNT FOR YOU 
+    </h1>
+    </center>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div >
+        <center>
+    <input type="text" id="input" placeholder="write any number from 1 to 100">
+        </center>
+    </div>
+    <div >
+        <center>
+        <button style="width: 50%; display: block;" type="button" class="btn btn-success" onclick="myfunction()">check</button>
+        </center>
+    </div>
+    <script>
+        function myfunction(){
+    var num= document.getElementById("input").value;
+    if(num<99 && num >90)
+        {
+            window.alert("you have got upto 10% off discount")
+        }
+    else if(num<89 && num>80)
+            {
+                window.alert("you have got upto 20% off discount")
+            }
+    else if(num<79 && num>70)
+            {
+                window.alert("you have got upto 30% off discount")
+                
+            }
+    else if(num<69 && num>60)
+            {
+                window.alert("you have got upto 40% off discount")
+                
+            }
+    else if(num<59 && num>50)
+            {
+                window.alert("you have got upto 50% off discount")
+                
+            }
+     else if(num<49 && num>40)
+            {
+                window.alert("you have got upto 60% off discount")
+                
+            }
+     else if(num<39 && num>30)
+            {
+                window.alert("you have got upto 70% off discount")
+                
+            }
+     else
+            {
+                window.alert("you have got upto 80% off discount")
+            }
+        }
+    </script>
+    
+    </body>
+</html>
